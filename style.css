@@ -1,59 +1,47 @@
 body{
-    background-color: bisque;
-    font-family:"Exo 2", sans-serif;
-    
+    background-color: rgb(238, 204, 231);
+    font-family: "Josefin Sans", sans-serif;
 }
-.logo img{
-    width: 80px;
+.mojj{
+    width:80px;
     height: 80px;
     border-radius: 50%;
-   
-   
 }
-.logo h1{
+h1{
     text-align: center;
     font-size: 5rem;
 }
-.coffee{
-    display:inline-block;
-    width: 30%;
-    float:left;
-   
-   
+h2{
+    color:rgb(131, 96, 158)
 }
-.coffee img{
+.mojito{
+    display: inline-block;
+    width:45%;
+    float:left;
+    
+}del{
+   color:rgb(142, 121, 161) 
+}
+.mojito img{
     width: 200px;
     height: 200px;
-    
-
 }
-button{
-    background-color: rgb(166, 148, 125);
-    color:rgb(20, 19, 18);
-    font-weight: bold;
-}
-@media(max-width:720px)
-{.logo img{
-    width: 40px;
-    height: 40px;
-    
-
-   
+@media(max-width:680px)
+{.mojj{
+   width: 40px;
+   height: 40px;
 }
     
-    .logo h1{
-    
+    h1{
     font-size: 2rem;
 }
-    .coffee{
-        display: block;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .coffee img{
-        width: 100%;
-        display: inline;
-        object-fit: cover;
+    .mojito{
+    display: block;
+    width: 100%;
+}.mojito img{
+    display: inline;
+    width: 100%;
+    object-fit: cover;
+}
 
-    }
 }
